@@ -1,1 +1,1 @@
-# SmartContracts
+# NFT SmartContract for minting

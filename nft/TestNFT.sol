@@ -10,10 +10,10 @@ contract TestNFT is ERC721Enumerable, Ownable {
 
     string public baseURI;
     string public baseExtension = ".json";
-    uint256 public cost = 0.05 ether;
-    uint256 public presaleCost = 0.03 ether;
-    uint256 public maxSupply = 992;
-    uint256 public maxMintAmount = 20;
+    uint256 public cost = 0.0 ether;
+    uint256 public presaleCost = 0.0 ether;
+    uint256 public maxSupply = 0;
+    uint256 public maxMintAmount = 0;
     bool public paused = false;
     mapping(address => bool) public presaleWallets;
 
